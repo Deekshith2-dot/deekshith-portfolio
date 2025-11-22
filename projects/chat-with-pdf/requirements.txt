@@ -1,0 +1,8 @@
+pypdf
+pytesseract
+pdf2image
+pillow
+sentence-transformers
+faiss-cpu
+groq
+numpy

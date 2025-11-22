@@ -1,0 +1,1 @@
+print('faiss demo placeholder')
