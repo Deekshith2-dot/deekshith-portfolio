@@ -1,11 +1,32 @@
-venv/
+# Python
 __pycache__/
 *.pyc
-*.pkl
-*.db
+venv/
 .env
-node_modules/
+.env.*
+*.pkl
+
+# FAISS / data
+data/
+*.index
+*.npy
+
+# Flutter / Android / iOS
 build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
 .idea/
 .vscode/
+*.iml
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/Runner.xcworkspace
+*.apk
+*.aab
+
+# mac/windows
 .DS_Store
+Thumbs.db
