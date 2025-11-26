@@ -144,7 +144,7 @@ APK & Release builds
 
 Backend deployed on Render:
 
-[https://<your-render-url>](https://vercel-deploy-opv8.onrender.com/)
+(https://vercel-deploy-opv8.onrender.com/)
 
 📬 Contact
 
