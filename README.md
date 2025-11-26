@@ -108,10 +108,10 @@ Local testing path used during development:
 /mnt/data/eeb4c4c0-3f47-4a56-b2de-c5153971cf94.pdf
 
 🧪 How to Run the RAG Chat Assistant (Backend)
-cd projects/genai-rag-chatbot/backend
-python -m venv venv
-venv\Scripts\activate   # Windows
-pip install -r requirements.txt
+- cd projects/genai-rag-chatbot/backend
+- python -m venv venv
+- venv\Scripts\activate   # Windows
+- pip install -r requirements.txt
 
 
 Set API keys:
@@ -125,9 +125,10 @@ Run:
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
 📱 How to Run the Flutter Mobile App
-cd projects/genai-rag-chatbot/flutter_app
-flutter pub get
-flutter run --dart-define=BACKEND_BASE=http://<your-ip>:8000
+
+- cd projects/genai-rag-chatbot/flutter_app
+- flutter pub get
+- flutter run --dart-define=BACKEND_BASE=http://<your-ip>:8000
 
 
 Supports:
